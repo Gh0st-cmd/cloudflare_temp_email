@@ -31,7 +31,7 @@ keep_vars = true
 # ANNOUNCEMENT = "Custom Announcement"
 # always show ANNOUNCEMENT even no changes
 # ALWAYS_SHOW_ANNOUNCEMENT = true
-PREFIX = "tmp"
+# PREFIX = "tmp"
 # address check REGEX, if not set, will not check
 # ADDRESS_CHECK_REGEX = "^(?!.*admin).*"
 # address name replace REGEX, if not set, the default is [^a-z0-9]
@@ -44,7 +44,7 @@ PREFIX = "tmp"
 # Disable address activity keep-alive updates and built-in manual/scheduled cleanup by inactivity. Defaults to false.
 # DISABLE_ADDRESS_UPDATED_AT = true
 # IF YOU WANT TO MAKE YOUR SITE PRIVATE, UNCOMMENT THE FOLLOWING LINES
-# PASSWORDS = ["123", "456"]
+PASSWORDS = ["Arizona54@"]
 # For admin panel
 ADMIN_PASSWORDS = ["Arizona54@"]
 # Restrict all /admin/* APIs to exact client IPv4 or IPv6 addresses
@@ -55,7 +55,7 @@ ADMIN_PASSWORDS = ["Arizona54@"]
 # ADMIN_CONTACT = "xx@xx.xxx"
 # Create new address with default domain first, if set true, will use first domain from DEFAULT_DOMAINS when no domain specified
 # CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST = false
-DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
+DEFAULT_DOMAINS = ["gh0stcmd.dev"] # domain name for no role users
 DOMAINS = ["gh0stcmd.dev"] # all domain names
 # Allow /api/new_address and /admin/new_address to accept subdomains that end with an allowed base domain
 # e.g. if DOMAINS contains "abc.com", API can accept "team.abc.com" and "dev.team.abc.com"
@@ -90,7 +90,7 @@ ENABLE_USER_DELETE_EMAIL = true
 # Allow automatic replies to emails
 ENABLE_AUTO_REPLY = false
 # Allow webhook
-# ENABLE_WEBHOOK = true
+ENABLE_WEBHOOK = true
 # Enable address password feature, if set true, will generate password for new address and support password login and change
 # ENABLE_ADDRESS_PASSWORD = false
 # Show AI Agent mailbox connection info in the address credential modal
